@@ -87,11 +87,11 @@ def about():
   <div style="position:absolute;inset:0;background:linear-gradient(to top,hsla(258,70%,20%,.45),transparent 45%)"></div>
 </div>
 <div style="position:absolute;left:530px;right:90px;top:150px">
-  <h3 style="font-size:26px;margin-bottom:14px">From the bench to the network.</h3>
-  <p style="font-size:17px;line-height:1.6">Pharmacist with a PhD in Biochemistry from the University of Cologne, where I studied
-  extracellular vesicles and Lyn kinase signalling in chronic lymphocytic leukaemia. Today I work on
+  <h3 style="font-size:26px;margin-bottom:14px">Pharmacist and translational oncology researcher</h3>
+  <p style="font-size:17px;line-height:1.6">PhD in Biochemistry from the University of Cologne, where I studied extracellular
+  vesicles and Lyn kinase signalling in chronic lymphocytic leukaemia. I now work on
   <b style="color:var(--title)">single-cell and bulk transcriptomics</b>, <b style="color:var(--title)">target prioritisation</b>
-  and <b style="color:var(--title)">drug repurposing</b> in cancer, built on public data and reproducible pipelines.</p>
+  and <b style="color:var(--title)">drug repurposing</b> in cancer, with public data and code that others can rerun.</p>
   <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin:24px 0 20px">{stats}</div>
   <div>{chips}</div>
 </div>""", 1280, 640)
@@ -122,14 +122,12 @@ PROJECTS = [
      "7,186 cells from 31 tumours. A tumour-level pseudobulk reanalysis cut 5,384 cell-level hits to 117; EMP1 loss after treatment is the robust signal."),
     ("trials-brazil", "img", "proj-trials-brazil.webp", None, "Clinical operations · Python · API", "Oncology trials in Brazil",
      "1,908 interventional trials and 11,387 Brazilian sites from ClinicalTrials.gov. 72% industry-sponsored, 73% multinational."),
-    ("melanoma-biomarkers", "img", "proj-volcano.webp", "In progress", "Melanoma · Smart-seq2 · Biomarkers", "Response to checkpoint blockade",
-     "16,291 CD45+ cells from 48 biopsies. Cell states and signatures that separate responders from non-responders to anti-PD-1 and anti-CTLA-4."),
     ("scanpy-lowmem", "art", glyph("ri-cpu-line", "16 GB"), None, "Scanpy · Harmony · pySCENIC", "scanpy-lowmem",
-     "Patterns and patches to integrate ~486k single cells on a 16 GB laptop, each tied to the error it solved."),
+     "Patterns and patches to integrate ~486k single cells on a 16 GB laptop, with tests and a memory benchmark of sparse PCA."),
     ("omics-fetch", "art", glyph("ri-database-2-line", "GEO · cBioPortal · GDC"), None, "Python · Public data", "omics-fetch",
-     "Download scripts for public cancer data that keep working on large cohorts, straight from NCBI FTP and the cBioPortal API."),
+     "Download scripts for GEO, cBioPortal and TCGA that check file sizes, record checksums and report failures. 18 tests."),
     ("cell-seeding", "art", glyph("ri-test-tube-line", "Cell seeding"), "Live", "Wet lab · HTML · No dependencies", "Cell seeding calculator",
-     "Bench tool that turns a counted cell suspension into a master-mix recipe for plates and flasks."),
+     "Bench tool that turns a counted cell suspension into a master-mix recipe for plates and flasks, with tested formulas."),
 ]
 
 
@@ -156,7 +154,7 @@ def expertise():
     items = [("01", "Single-cell &amp; bulk transcriptomics", "QC, multi-cohort integration, malignant cell states, regulons, pseudobulk DE."),
              ("02", "Target prioritisation &amp; drug repurposing", "Linking expression programs to druggable targets and existing compounds."),
              ("03", "ADME &amp; cheminformatics", "RDKit featurisation, scaffold-aware validation, applicability domain."),
-             ("04", "Clinical &amp; regulatory landscape", "Trial-registry feasibility, medical affairs and ANVISA regulatory work.")]
+             ("04", "Clinical &amp; regulatory landscape", "Trial-registry feasibility analyses, medical affairs and regulatory work with ANVISA.")]
     cards = "".join(f"""<div class="card" style="padding:24px 26px;display:grid;grid-template-columns:34px 1fr;column-gap:14px;row-gap:6px;align-content:start">
 <span style="font-family:Unbounded;color:var(--p);font-size:16px;grid-row:span 2;padding-top:4px">{n}</span>
 <h3 style="font-size:19px">{t}</h3><p style="font-size:15.5px">{d}</p></div>""" for n, t, d in items)
