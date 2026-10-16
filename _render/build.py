@@ -21,7 +21,7 @@ CHROME = r"C:\Program Files\Google\Chrome\Application\chrome.exe"
 SCALE = 2
 CARD_H = 500
 LINK_LABEL = {"bridge-tf": "View protocol", "cell-seeding": "Open tool"}
-COVER_POSITION = {"solubility": "center 54%"}
+COVER_POSITION = {"solubility": "center 54%", "trials-brazil": "contain"}
 
 HEAD = f"""<!doctype html><html><head><meta charset="utf-8">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&family=Unbounded:wght@400;500;600;700&display=swap">
@@ -121,7 +121,7 @@ PROJECTS = [
     ("melanoma-resistance", "img", "proj-melanoma-resistance.webp", None, "Melanoma · scRNA-seq · Immunotherapy", "Malignant resistance program",
      "7,186 cells from 31 tumours. A tumour-level pseudobulk reanalysis cut 5,384 cell-level hits to 117; EMP1 loss after treatment is the robust signal."),
     ("trials-brazil", "img", "proj-trials-brazil.webp", None, "Clinical operations · Python · API", "Oncology trials in Brazil",
-     "1,908 interventional trials and 11,387 Brazilian sites from ClinicalTrials.gov. 72% industry-sponsored, 73% multinational."),
+     "1,908 trials and 11,387 Brazilian sites mapped by state. 72% industry-sponsored; 93% have a site in the Southeast, 3% in the North."),
     ("scanpy-lowmem", "art", glyph("ri-cpu-line", "16 GB"), None, "Scanpy · Harmony · pySCENIC", "scanpy-lowmem",
      "Patterns and patches to integrate ~486k single cells on a 16 GB laptop, with tests and a memory benchmark of sparse PCA."),
     ("omics-fetch", "art", glyph("ri-database-2-line", "GEO · cBioPortal · GDC"), None, "Python · Public data", "omics-fetch",
@@ -133,7 +133,7 @@ PROJECTS = [
 
 def project_card(kind, cover, badge, subtitle, title, desc, link_label="View on GitHub", position="center"):
     if kind == "img":
-        cover_html = f'<div style="height:300px;background:#fff;overflow:hidden"><img src="{IMG}/{cover}" style="width:100%;height:100%;object-fit:cover;object-position:{position}"></div>'
+        cover_html = f'<div style="height:300px;background:#fff;overflow:hidden"><img src="{IMG}/{cover}" style="width:100%;height:100%;object-fit:{"contain" if position == "contain" else "cover"};object-position:{"center" if position == "contain" else position}"></div>'
     else:
         cover_html = ('<div style="height:300px;display:grid;place-items:center;background:radial-gradient(circle at 75% 20%,hsla(258,80%,58%,.55),transparent 55%),'
                       f'radial-gradient(circle at 15% 90%,hsla(200,80%,50%,.25),transparent 50%),var(--card2)">{cover}</div>')
