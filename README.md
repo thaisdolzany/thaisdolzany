@@ -1,61 +1,33 @@
 <a href="https://thaisdolzany.github.io">
-  <img src="assets/banner.png" alt="Thaís Dolzany, Translational Oncology and Bioinformatics" width="100%">
+  <img src="assets/hero.png" width="100%" alt="Thaís Dolzany. Translational oncology and bioinformatics. Pharmacist, PhD Universität zu Köln, São Paulo, Brazil.">
 </a>
 
+<img src="assets/about.png" width="100%" alt="About me. Pharmacist with a PhD in Biochemistry from the University of Cologne, where I studied extracellular vesicles and Lyn kinase signalling in chronic lymphocytic leukaemia. I now work on single-cell and bulk transcriptomics, target prioritisation and drug repurposing in cancer. 10+ years in research, 5 publications. Tools: R, Python, Seurat, Scanpy, pySCENIC, DESeq2, RDKit, XGBoost, scikit-learn, GEO, TCGA, cBioPortal.">
+
+<img src="assets/title-projects.png" width="100%" alt="Selected projects">
+
 <p align="center">
-  <a href="https://thaisdolzany.github.io"><img src="https://img.shields.io/badge/Portfolio-thaisdolzany.github.io-7448f0?style=for-the-badge&labelColor=0b0b16" alt="Portfolio"></a>
-  <a href="https://www.linkedin.com/in/thaisdolzany/"><img src="https://img.shields.io/badge/LinkedIn-Connect-7448f0?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0b0b16" alt="LinkedIn"></a>
-  <a href="https://orcid.org/0000-0002-5503-4051"><img src="https://img.shields.io/badge/ORCID-Publications-7448f0?style=for-the-badge&logo=orcid&logoColor=white&labelColor=0b0b16" alt="ORCID"></a>
+  <a href="https://github.com/thaisdolzany/BRIDGE-TF-protocol"><img src="assets/card-bridge-tf.png" width="49%" alt="BRIDGE-TF: conserved transcription-factor modules behind malignant cell-state plasticity in breast cancer. Pre-registered protocol."></a>
+  <a href="https://github.com/thaisdolzany/computational-pharmacology-portfolio/tree/main/03-adme-solubility-ml"><img src="assets/card-solubility.png" width="49%" alt="Solubility under scaffold shift: XGBoost RMSE 0.85 on a random split, 1.23 log units on unseen scaffolds, 9,145 molecules."></a>
+</p>
+<p align="center">
+  <a href="https://github.com/thaisdolzany/computational-pharmacology-portfolio/tree/main/02-melanoma-drug-resistance"><img src="assets/card-melanoma-resistance.png" width="49%" alt="Malignant resistance program in melanoma: pseudobulk reanalysis of 31 tumours; EMP1 loss after treatment is the robust signal."></a>
+  <a href="https://github.com/thaisdolzany/computational-pharmacology-portfolio/tree/main/04-oncology-trials-brazil"><img src="assets/card-trials-brazil.png" width="49%" alt="Oncology trials in Brazil: 1,908 trials and 11,387 Brazilian sites from ClinicalTrials.gov."></a>
+</p>
+<p align="center">
+  <a href="https://github.com/thaisdolzany/computational-pharmacology-portfolio/tree/main/01-melanoma-single-cell-biomarkers"><img src="assets/card-melanoma-biomarkers.png" width="49%" alt="Response to checkpoint blockade in melanoma, 16,291 CD45+ cells. In progress."></a>
+  <a href="https://github.com/thaisdolzany/scanpy-lowmem"><img src="assets/card-scanpy-lowmem.png" width="49%" alt="scanpy-lowmem: integrate about 486k single cells on a 16 GB laptop."></a>
+</p>
+<p align="center">
+  <a href="https://github.com/thaisdolzany/omics-fetch"><img src="assets/card-omics-fetch.png" width="49%" alt="omics-fetch: download scripts for GEO, cBioPortal and GDC cancer data."></a>
+  <a href="https://thaisdolzany.github.io/calculadora-plaqueamento/"><img src="assets/card-cell-seeding.png" width="49%" alt="Cell seeding calculator: live bench tool for plates and flasks."></a>
 </p>
 
-### About me
+<img src="assets/expertise.png" width="100%" alt="What I work on: single-cell and bulk transcriptomics; target prioritisation and drug repurposing; ADME and cheminformatics; clinical and regulatory landscape.">
 
-Pharmacist with a PhD in Biochemistry from the University of Cologne, Germany, where I studied
-extracellular vesicles and Lyn kinase signalling in chronic lymphocytic leukaemia. I now work on
-**single-cell and bulk transcriptomics**, **target prioritisation** and **drug repurposing** in
-cancer, built on public data and reproducible pipelines.
+<img src="assets/experience.png" width="100%" alt="Experience: Responsible Pharmacist and Medical Affairs and Scientific Lead, Medra Brasil; University Lecturer in Pharmacy, Afya Universidade Unigranrio; research collaboration, LABEC, Universidade de Mogi das Cruzes; doctoral researcher, Universität zu Köln. Education: PhD in Biochemistry, Universität zu Köln; MSc in Biotechnology, Universidade de Mogi das Cruzes; postgraduate specialisations in Pharmacology and Regulatory Affairs; Pharmacy degree.">
 
-- Responsible Pharmacist and Medical Affairs & Scientific Lead, Medra Brasil
-- Lecturer in Pharmacy and NDE member, Afya Universidade Unigranrio
-- Open to collaborations in computational oncology and translational research roles
-
-### Selected work
-
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <h4><a href="https://github.com/thaisdolzany/BRIDGE-TF-protocol">BRIDGE-TF</a></h4>
-      <sub>Breast cancer · scRNA-seq · Regulons · <b>Pre-registered</b></sub>
-      <p>Conserved transcription-factor modules behind malignant cell-state plasticity, from two scRNA-seq atlases to metastasis and TCGA-BRCA validation.</p>
-    </td>
-    <td width="50%" valign="top">
-      <h4><a href="https://github.com/thaisdolzany/computational-pharmacology-portfolio">Computational pharmacology portfolio</a></h4>
-      <sub>Melanoma · ADME / ML · Clinical trials</sub>
-      <p>Malignant resistance program in 7,186 melanoma cells, solubility prediction on unseen scaffolds (9,145 molecules), response biomarkers to checkpoint blockade, and 1,908 oncology trials with sites in Brazil.</p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h4><a href="https://github.com/thaisdolzany/scanpy-lowmem">scanpy-lowmem</a></h4>
-      <sub>Scanpy · Harmony · pySCENIC</sub>
-      <p>Patterns and patches to integrate ~486k single cells on a 16 GB laptop, each tied to the error it solved.</p>
-    </td>
-    <td width="50%" valign="top">
-      <h4><a href="https://github.com/thaisdolzany/omics-fetch">omics-fetch</a></h4>
-      <sub>GEO · cBioPortal · TCGA/GDC</sub>
-      <p>Download scripts for public cancer data that keep working on large cohorts.</p>
-    </td>
-  </tr>
-  <tr>
-    <td colspan="2" valign="top">
-      <h4><a href="https://thaisdolzany.github.io/calculadora-plaqueamento/">Cell seeding calculator</a></h4>
-      <sub>Wet lab · HTML · Live tool</sub>
-      <p>Turns a counted cell suspension into a master-mix recipe for plates and flasks.</p>
-    </td>
-  </tr>
-</table>
-
-### Publications
+<img src="assets/title-publications.png" width="100%" alt="Selected publications">
 
 - **2026** · Proteomic and functional comparison of extracellular vesicles from wild-type and Lyn-deficient stromal cells. *Advances in Experimental Medicine and Biology* (book chapter). [doi](https://doi.org/10.1007/978-3-032-21638-0_5)
 - **2023** · Stromal cells support the survival of human primary CLL cells through Lyn-driven extracellular vesicles. *Frontiers in Medicine*. [doi](https://doi.org/10.3389/fmed.2022.1059028)
@@ -63,18 +35,10 @@ cancer, built on public data and reproducible pipelines.
 - **2021** · Intracellular targeting of PLGA nanoparticles by surface functionalization with peptides. *Journal of Biomedical Nanotechnology*. [doi](https://doi.org/10.1166/jbn.2021.3108)
 - **2017** · Inhibition of melanoma metastasis by dual-peptide PLGA NPs. *Biopolymers*. [doi](https://doi.org/10.1002/bip.23029)
 
-### Toolbox
+<img src="assets/title-contact.png" width="100%" alt="Let's talk. Open to collaborations in computational oncology, postdoctoral positions and translational research roles in industry.">
 
-<p>
-  <img src="https://img.shields.io/badge/R-0b0b16?style=flat-square&logo=r&logoColor=9b7ef0" alt="R">
-  <img src="https://img.shields.io/badge/Python-0b0b16?style=flat-square&logo=python&logoColor=9b7ef0" alt="Python">
-  <img src="https://img.shields.io/badge/Seurat-0b0b16?style=flat-square" alt="Seurat">
-  <img src="https://img.shields.io/badge/Scanpy-0b0b16?style=flat-square" alt="Scanpy">
-  <img src="https://img.shields.io/badge/pySCENIC-0b0b16?style=flat-square" alt="pySCENIC">
-  <img src="https://img.shields.io/badge/DESeq2-0b0b16?style=flat-square" alt="DESeq2">
-  <img src="https://img.shields.io/badge/Bioconductor-0b0b16?style=flat-square" alt="Bioconductor">
-  <img src="https://img.shields.io/badge/pandas-0b0b16?style=flat-square&logo=pandas&logoColor=9b7ef0" alt="pandas">
-  <img src="https://img.shields.io/badge/RDKit-0b0b16?style=flat-square" alt="RDKit">
-  <img src="https://img.shields.io/badge/scikit--learn-0b0b16?style=flat-square&logo=scikitlearn&logoColor=9b7ef0" alt="scikit-learn">
-  <img src="https://img.shields.io/badge/Git-0b0b16?style=flat-square&logo=git&logoColor=9b7ef0" alt="Git">
+<p align="center">
+  <a href="https://thaisdolzany.github.io"><img src="assets/contact-portfolio.png" width="32%" alt="Portfolio: thaisdolzany.github.io"></a>
+  <a href="https://www.linkedin.com/in/thaisdolzany/"><img src="assets/contact-linkedin.png" width="32%" alt="LinkedIn"></a>
+  <a href="https://orcid.org/0000-0002-5503-4051"><img src="assets/contact-orcid.png" width="32%" alt="ORCID 0000-0002-5503-4051"></a>
 </p>
