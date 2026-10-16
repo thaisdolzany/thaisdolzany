@@ -30,8 +30,8 @@ cancer, built on public data and reproducible pipelines.
     </td>
     <td width="50%" valign="top">
       <h4><a href="https://github.com/thaisdolzany/computational-pharmacology-portfolio">Computational pharmacology portfolio</a></h4>
-      <sub>Melanoma · Immunotherapy · Clinical trials</sub>
-      <p>Malignant resistance program in 7,186 melanoma cells, response biomarkers to checkpoint blockade, and 1,908 oncology trials with sites in Brazil.</p>
+      <sub>Melanoma · ADME / ML · Clinical trials</sub>
+      <p>Malignant resistance program in 7,186 melanoma cells, solubility prediction on unseen scaffolds (9,145 molecules), response biomarkers to checkpoint blockade, and 1,908 oncology trials with sites in Brazil.</p>
     </td>
   </tr>
   <tr>
@@ -74,5 +74,7 @@ cancer, built on public data and reproducible pipelines.
   <img src="https://img.shields.io/badge/DESeq2-0b0b16?style=flat-square" alt="DESeq2">
   <img src="https://img.shields.io/badge/Bioconductor-0b0b16?style=flat-square" alt="Bioconductor">
   <img src="https://img.shields.io/badge/pandas-0b0b16?style=flat-square&logo=pandas&logoColor=9b7ef0" alt="pandas">
+  <img src="https://img.shields.io/badge/RDKit-0b0b16?style=flat-square" alt="RDKit">
+  <img src="https://img.shields.io/badge/scikit--learn-0b0b16?style=flat-square&logo=scikitlearn&logoColor=9b7ef0" alt="scikit-learn">
   <img src="https://img.shields.io/badge/Git-0b0b16?style=flat-square&logo=git&logoColor=9b7ef0" alt="Git">
 </p>
