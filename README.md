@@ -2,24 +2,27 @@
   <img src="assets/hero.png" width="100%" alt="Thaís Dolzany. Translational oncology and bioinformatics. Pharmacist, PhD Universität zu Köln, São Paulo, Brazil.">
 </a>
 
-<img src="assets/about.png" width="100%" alt="About me. Pharmacist with a PhD in Biochemistry from the University of Cologne, where I studied extracellular vesicles and Lyn kinase signalling in chronic lymphocytic leukaemia. I now work on single-cell and bulk transcriptomics, target prioritisation and drug repurposing in cancer. 10+ years in research, 5 publications. Tools: R, Python, Seurat, Scanpy, pySCENIC, DESeq2, RDKit, XGBoost, scikit-learn, GEO, TCGA, cBioPortal.">
+<img src="assets/about.png" width="100%" alt="About me. Pharmacist with a PhD in Biochemistry from the University of Cologne, where I studied extracellular vesicles and Lyn kinase signalling in chronic lymphocytic leukaemia. I now work on single-cell and bulk transcriptomics, target prioritisation and drug repurposing in cancer. 10+ years in research, 5 publications. Tools: R, Python, Seurat, Scanpy, pySCENIC, DESeq2, RDKit, XGBoost, scikit-learn, GEO, TCGA, cBioPortal, Nextflow, bcftools.">
 
 <img src="assets/title-projects.png" width="100%" alt="Selected projects">
 
 <p align="center">
+  <a href="https://github.com/thaisdolzany/ngs-germline-panel-nf"><img src="assets/card-ngs-germline.png" width="49%" alt="ngs-germline-panel-nf: Nextflow pipeline for gene panels with QC, coverage, variant calling and annotation, checked against a truth set on every push: 131 of 132 variants found."></a>
   <a href="https://github.com/thaisdolzany/computational-pharmacology-portfolio/tree/main/melanoma-scrnaseq-resistance"><img src="assets/card-melanoma-resistance.png" width="49%" alt="Malignant resistance program in melanoma: pseudobulk reanalysis of 31 tumours; only 61 of 5,384 cell-level hits hold up, and EMP1 loss after treatment is the strongest signal."></a>
+</p>
+<p align="center">
   <a href="https://github.com/thaisdolzany/computational-pharmacology-portfolio/tree/main/solubility-scaffold-shift"><img src="assets/card-solubility.png" width="49%" alt="Solubility under scaffold shift: XGBoost RMSE 0.85 on a random split, 1.23 log units on unseen scaffolds, 9,145 molecules."></a>
-</p>
-<p align="center">
   <a href="https://github.com/thaisdolzany/computational-pharmacology-portfolio/tree/main/oncology-trials-brazil"><img src="assets/card-trials-brazil.png" width="49%" alt="Oncology trials in Brazil: 1,908 trials and 11,387 Brazilian sites from ClinicalTrials.gov."></a>
-  <a href="https://github.com/thaisdolzany/scanpy-lowmem"><img src="assets/card-scanpy-lowmem.png" width="49%" alt="scanpy-lowmem: integrate about 486k single cells on a 16 GB laptop, with tests and a memory benchmark."></a>
 </p>
 <p align="center">
+  <a href="https://github.com/thaisdolzany/scanpy-lowmem"><img src="assets/card-scanpy-lowmem.png" width="49%" alt="scanpy-lowmem: integrate about 486k single cells on a 16 GB laptop, with tests and a memory benchmark."></a>
   <a href="https://github.com/thaisdolzany/omics-fetch"><img src="assets/card-omics-fetch.png" width="49%" alt="omics-fetch: download scripts for GEO, cBioPortal and GDC cancer data, with size checks and tests."></a>
+</p>
+<p align="center">
   <a href="https://thaisdolzany.github.io/calculadora-plaqueamento/"><img src="assets/card-cell-seeding.png" width="49%" alt="Cell seeding calculator: bench tool for plates and flasks, with tested formulas."></a>
 </p>
 
-<img src="assets/expertise.png" width="100%" alt="What I work on: single-cell and bulk transcriptomics; target prioritisation and drug repurposing; ADME and cheminformatics; clinical and regulatory landscape.">
+<img src="assets/expertise.png" width="100%" alt="What I work on: transcriptomics and NGS (single-cell and bulk, germline variant calling pipelines in Nextflow); target prioritisation and drug repurposing; ADME and cheminformatics; clinical and regulatory landscape.">
 
 <img src="assets/experience.png" width="100%" alt="Experience: Responsible Pharmacist and Medical Affairs and Scientific Lead, Medra Brasil; University Lecturer in Pharmacy, Afya Universidade Unigranrio; research collaboration, LABEC, Universidade de Mogi das Cruzes; doctoral researcher, Universität zu Köln. Education: PhD in Biochemistry, Universität zu Köln; MSc in Biotechnology, Universidade de Mogi das Cruzes; postgraduate specialisations in Pharmacology and Regulatory Affairs; Pharmacy degree.">
 
