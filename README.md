@@ -7,18 +7,15 @@
 <img src="assets/title-projects.png" width="100%" alt="Selected projects">
 
 <p align="center">
-  <a href="https://github.com/thaisdolzany/BRIDGE-TF-protocol"><img src="assets/card-bridge-tf.png" width="49%" alt="BRIDGE-TF: conserved transcription-factor modules behind malignant cell-state plasticity in breast cancer. Pre-registered protocol."></a>
+  <a href="https://github.com/thaisdolzany/computational-pharmacology-portfolio/tree/main/melanoma-scrnaseq-resistance"><img src="assets/card-melanoma-resistance.png" width="49%" alt="Malignant resistance program in melanoma: pseudobulk reanalysis of 31 tumours; only 61 of 5,384 cell-level hits hold up, and EMP1 loss after treatment is the strongest signal."></a>
   <a href="https://github.com/thaisdolzany/computational-pharmacology-portfolio/tree/main/solubility-scaffold-shift"><img src="assets/card-solubility.png" width="49%" alt="Solubility under scaffold shift: XGBoost RMSE 0.85 on a random split, 1.23 log units on unseen scaffolds, 9,145 molecules."></a>
 </p>
 <p align="center">
-  <a href="https://github.com/thaisdolzany/computational-pharmacology-portfolio/tree/main/melanoma-scrnaseq-resistance"><img src="assets/card-melanoma-resistance.png" width="49%" alt="Malignant resistance program in melanoma: pseudobulk reanalysis of 31 tumours; EMP1 loss after treatment is the robust signal."></a>
   <a href="https://github.com/thaisdolzany/computational-pharmacology-portfolio/tree/main/oncology-trials-brazil"><img src="assets/card-trials-brazil.png" width="49%" alt="Oncology trials in Brazil: 1,908 trials and 11,387 Brazilian sites from ClinicalTrials.gov."></a>
-</p>
-<p align="center">
   <a href="https://github.com/thaisdolzany/scanpy-lowmem"><img src="assets/card-scanpy-lowmem.png" width="49%" alt="scanpy-lowmem: integrate about 486k single cells on a 16 GB laptop, with tests and a memory benchmark."></a>
-  <a href="https://github.com/thaisdolzany/omics-fetch"><img src="assets/card-omics-fetch.png" width="49%" alt="omics-fetch: download scripts for GEO, cBioPortal and GDC cancer data, with size checks and tests."></a>
 </p>
 <p align="center">
+  <a href="https://github.com/thaisdolzany/omics-fetch"><img src="assets/card-omics-fetch.png" width="49%" alt="omics-fetch: download scripts for GEO, cBioPortal and GDC cancer data, with size checks and tests."></a>
   <a href="https://thaisdolzany.github.io/calculadora-plaqueamento/"><img src="assets/card-cell-seeding.png" width="49%" alt="Cell seeding calculator: bench tool for plates and flasks, with tested formulas."></a>
 </p>
 
